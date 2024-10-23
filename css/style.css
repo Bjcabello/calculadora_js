@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(./img/pokemon2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-top: 10px;
+    color: #666;
+  }
+  
+  .calculadora {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: rgb(3, 255, 53);
+    padding: 10px;
+    border-radius: 5px;
+    border:  solid black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .texto-calculadora{
+    display: grid;
+    place-items: center;
+  
+  }
+  
+  #pantalla {
+    width: 93%;
+    border: #666 solid;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+  
+  input[type="button"] {
+    width: 22%;
+    height: 50px;
+    margin-right: 5px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #ddd;
+  }
+  
+  input[type="button"]:last-child {
+    margin-right: 0;
+  }
+   
